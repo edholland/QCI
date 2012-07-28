@@ -1,0 +1,14 @@
+%chk=checkpoint/$projectName-$jobName-$stepName.chk 
+%nprocl=$nodes 
+%nprocs=$cpus 
+%mem=$ram
+# $functional/$basis $PCM $type  
+
+$projectName-$jobName-$stepName 
+
+$charge,$mult 
+$xyz
+
+$sphere_string
+
+

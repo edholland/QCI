@@ -1,0 +1,10 @@
+#!/bin/tcsh 
+#PBS -q $queue 
+#PBS -l walltime=$walltime 
+#PBS -N $projectName-$jobName-$stepName 
+#PBS -l nodes=$nodes
+setenv g03root /home/ed/g03JP 
+source $g03root/g03/bsd/g03.login 
+echo $cwd
+cd /home/ed/repos/quantum-chemistry-interface/jobs/$projectName/$jobName/$stepName
+g03 < $projectName-$jobName-$stepName.inp > $projectName-$jobName-$stepName.out 

@@ -1,0 +1,10 @@
+ $BASIS $basis $END
+ $CONTRL RUNTYP=$type DFTTYP=$functional COORD=UNIQUE
+ICHARG=$charge MULT=$mult SCFTYP=$scf $END
+ $SYSTEM MWORDS=$ram $END
+ $extras
+ $DATA
+$projectName-$jobName-$stepName
+$sym
+$xyz
+ $END

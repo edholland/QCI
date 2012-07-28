@@ -1,0 +1,7 @@
+rm -rf jobs/
+rm -rf ~/scr/*
+./main.py Habs H but -n -c 0 -m 1 --xyz "but.xyz" -t OPT 
+./main.py Habs H eth -n -c 0 -m 1 --xyz eth.xyz -t OPT 
+./main.py Habs H cyc -n -c 0 -m 1 --xyz cyc.xyz -t OPT 
+./main.py Habs H cycts -n -c 0 -m 1 --xyz cycts.xyz -t OPT -ts 
+./main.py Habs H "but eth cyc cycts" -s 

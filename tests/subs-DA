@@ -1,0 +1,5 @@
+./main.py Habs Ome but -n -c 0 -m 1 --xyz "Habs-H-but.job" -t OPT --frag "9 ome"
+./main.py Habs Ome eth -n -c 0 -m 1 --xyz "Habs-H-eth.job" -t OPT 
+./main.py Habs Ome cyc -n -c 0 -m 1 --xyz "Habs-H-cyc.job" -t OPT --frag "15 ome"
+./main.py Habs Ome cycts -n -c 0 -m 1 --xyz "Habs-H-cycts.job" -t OPT -ts --frag "11 ome"
+./main.py Habs Ome "but eth cyc cycts" -s 

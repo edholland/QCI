@@ -1,0 +1,6 @@
+rm -rf jobs/
+./main.py DA H but -n -c 0 -m 1 --xyz "tests/but.xyz" -t OPT 
+./main.py DA H eth -n -c 0 -m 1 --xyz tests/eth.xyz -t OPT 
+./main.py DA H cyc -n -c 0 -m 1 --xyz tests/cyc.xyz -t OPT 
+./main.py DA H TS -n -c 0 -m 1 --xyz tests/cycts.xyz -t OPT -ts 
+./main.py DA H "but eth TS cyc" -s 

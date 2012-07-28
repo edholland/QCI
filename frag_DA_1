@@ -1,0 +1,5 @@
+./main.py DA $1 but -n --xyz DA-H-but.job -t OPT --fr "10 $1"
+./main.py DA $1 eth -n --xyz DA-H-eth.job -t OPT 
+./main.py DA $1 cyc -n --xyz DA-H-cyc.job -t OPT --fr "16 $1"
+./main.py DA $1 TS -n --xyz DA-H-TS.job -t OPT -ts --fr "11 $1"
+./main.py DA $1 "but eth TS cyc" -s 
