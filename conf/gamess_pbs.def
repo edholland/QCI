@@ -6,5 +6,5 @@
 
 setenv GAM_SCRDIR /scratch/$PBS_JOBID 
 mkdir -p $GAM_SCRDIR 
-cd /home/ed/repos/quantum-chemistry-interface/jobs/$projectName/$jobName/$stepName
-csh -x /home/ed/gamess/rungms $projectName-$jobName-$stepName.inp 00 $cpus >& /home/ed/repos/quantum-chemistry-interface/jobs/$projectName/$jobName/$stepName/$projectName-$jobName-$stepName.out 
+cd /home/ed/repos/QCI/jobs/$projectName/$jobName/$stepName
+csh -x /home/ed/gamess/rungms $projectName-$jobName-$stepName.inp 00 $cpus >& /home/ed/repos/QCI/jobs/$projectName/$jobName/$stepName/$projectName-$jobName-$stepName.out 

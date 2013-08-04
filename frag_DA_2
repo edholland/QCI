@@ -1,5 +1,5 @@
-./main.py DA 2_$1 but -n --xyz DA-H-but.job -t OPT --fr "5 $1"
-./main.py DA 2_$1 eth -n --xyz DA-H-eth.job -t OPT 
-./main.py DA 2_$1 cyc -n --xyz DA-H-cyc.job -t OPT --fr "5 $1"
-./main.py DA 2_$1 TS -n --xyz DA-H-TS.job -t OPT -ts --fr "7 $1"
-./main.py DA 2_$1 "but eth TS cyc" -s 
+./main.py DA 2s$1 but -n --xyz DA-H-but.job -t OPT --fr "5 $1"
+./main.py DA 2s$1 eth -n --xyz DA-H-eth.job -t OPT 
+./main.py DA 2s$1 cyc -n --xyz DA-H-cyc.job -t OPT --fr "5 $1"
+./main.py DA 2s$1 TS -n --xyz DA-H-TS.job -t OPT -ts --fr "7 $1"
+./main.py DA 2s$1 "but eth TS cyc" -s 

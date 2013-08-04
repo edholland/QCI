@@ -1,7 +1,6 @@
-rm -rf jobs/
-./main.py Rad_Hal H SM -n -c 0 -m 1 --xyz "tests/methane.xyz" -t OPT 
-./main.py Rad_Hal H Cl -n -c 0 -m 2 --xyz tests/Cl.xyz -t OPT 
-./main.py Rad_Hal H Prod -n -c 0 -m 2 --xyz tests/methylradical.xyz -t OPT 
-./main.py Rad_Hal H TS -n -c 0 -m 2 --xyz tests/radTS.xyz -t OPT -ts 
-./main.py Rad_Hal H HCl -n -c 0 -m 1 --xyz tests/HCl.xyz -t OPT
-./main.py Rad_Hal H "Cl HCl SM Prod TS" -s 
+./main.py Rad_Hal H SM -n -c 0 -m 1 --xyz "tests/methane.xyz" -t OPT -e GAMESS
+./main.py Rad_Hal H Cl -n -c 0 -m 2 --xyz tests/Cl.xyz -t OPT -e GAMESS
+./main.py Rad_Hal H Prod -n -c 0 -m 2 --xyz tests/methylradical.xyz -t OPT -e GAMESS 
+./main.py Rad_Hal H TS -n -c 0 -m 2 --xyz tests/radTS.xyz -t OPT -ts -e GAMESS
+./main.py Rad_Hal H HCl -n -c 0 -m 1 --xyz tests/HCl.xyz -t OPT -e GAMESS
+./main.py Rad_Hal H "Cl HCl SM Prod TS" -s -e GAMESS
